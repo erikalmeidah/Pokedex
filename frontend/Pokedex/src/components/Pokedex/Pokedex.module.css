@@ -1,0 +1,18 @@
+.pokedexContainer{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.searchBar {
+
+}
+
+.results {
+
+}

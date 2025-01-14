@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Pokedex from './components/Pokedex/Pokedex.jsx';
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-      
+      <Pokedex />
     </>
   )
 };
