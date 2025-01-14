@@ -16,13 +16,14 @@ function Pokedex() {
                 <div className={style.title}>
                     Pokédex
                 </div>
-                <div className={style.searchBar}>
+                <div className={style.input}>
                 <input
+                        className={style.searchBar}
                         placeholder='Enter a Pokemon name...'
                         value={userInput}
                         onChange={(e) => setUserInput(e.target.value)}
                     />
-                    <button onClick={handleSearchClick}>Search</button>
+                    <button className={style.searchButton} onClick={handleSearchClick}>Search</button>
                 </div>
                 <div className={style.results}>
                     {searchQuery && <PokemonDetails pokemonName={searchQuery}/>}
